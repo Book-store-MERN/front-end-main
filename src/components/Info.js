@@ -6,10 +6,10 @@ const Info = () => {
     <div>
       <Box display="flex" flexDirection="column" alignItems="center">
         <Typography sx={{ fontFamily: "fantasy" }} variant="h2">
-          This is a CRUD Application
+          About Us
         </Typography>
         <Typography sx={{ fontFamily: "fantasy" }} variant="h3">
-          By MERN STACK
+          place holder 
         </Typography>
       </Box>
     </div>
