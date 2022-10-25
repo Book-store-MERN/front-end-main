@@ -59,8 +59,8 @@ const AddBook = () => {
         alignContent={"center"}
         alignSelf="center"
         marginLeft={"auto"}
-        marginRight="auto"
-        marginTop={10}
+        marginRight={25}
+        marginTop={5}
       >
         <FormLabel>Name</FormLabel>
         <TextField
