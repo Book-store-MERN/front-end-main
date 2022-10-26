@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./Book.css";
 import axios from "axios";
 import Book from "./Book";
-const URL = "http://localhost:3003/books";
+const URL = `${process.env.REACT_APP_BACKEND_URL}/books`;
+
+
 const fetchHandler = async () => {
   return await axios.get(URL).then((res) => res.data);
 };
